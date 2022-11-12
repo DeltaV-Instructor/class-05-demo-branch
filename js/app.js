@@ -2,7 +2,14 @@
 console.log('app is connected');
 
 
-
+/**
+ * @param  {}
+ * @param  Int
+ * @author Coder Person
+ * @Date
+ * @returns
+ *
+ */
 function lotteryNumberPicker(){
   //create an empty array to hold some numbers
   let lotteryArray = [];
@@ -36,6 +43,13 @@ lotteryNumberPicker();
 //   return lotteryArray;
 // }
 
+
+
+
+
+
+
+
 /**
  * lottery number
  * @param {string} quantity
@@ -63,3 +77,4 @@ let results = lotteryNumbers(quantity, lotteryMax);
 
 alert(results);
 console.table(results);
+
