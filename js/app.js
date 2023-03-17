@@ -61,7 +61,6 @@ function lotteryNumbers(quantity, lotteryMax){
 
   let lotteryArray = [];
 
-
   for(let i = 0; i < quantity; i++){
     lotteryArray[i] = Math.ceil(Math.random() * lotteryMax);
   }
